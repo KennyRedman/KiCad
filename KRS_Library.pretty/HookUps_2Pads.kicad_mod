@@ -1,0 +1,18 @@
+(footprint "HookUps_2Pads" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0.254 -2.032 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp bd382033-7bac-4ddd-a34e-e46ba95a610f)
+  )
+  (fp_text value "HookUps_2Pads" (at 0 4.064 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7dc9f5c5-e826-4f53-a960-7edd75513470)
+  )
+  (fp_text user "${REFERENCE}" (at 0.254 5.334 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d7294b5c-e833-4577-80d0-7ff145184189)
+  )
+  (pad "1" thru_hole circle (at -1.48 0) (size 2.25 2.25) (drill 1.25) (layers "*.Cu" "*.Mask") (tstamp 3faaccea-f9e4-47c5-afb9-910ccb3be59a))
+  (pad "2" thru_hole circle (at 1.524 0) (size 2.25 2.25) (drill 1.25) (layers "*.Cu" "*.Mask") (tstamp 90b6b682-31d6-4b3a-a176-7e140d944e3b))
+)

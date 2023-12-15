@@ -1,0 +1,63 @@
+(footprint "Diode_DO35" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<B>DO-35 0.3\" spacing</B>")
+  (attr through_hole)
+  (fp_text reference "Ref" (at 0 0) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 48b72906-a988-4266-83eb-556284546e77)
+  )
+  (fp_text value "Val" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp be8e2b97-f177-4abd-95f4-194a114e7160)
+  )
+  (fp_line (start -2.286 -0.762) (end -2.286 0.762)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 5ebff774-fa39-455f-947b-9a3a19ea2128))
+  (fp_line (start -2.032 -1.016) (end 2.032 -1.016)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 4961a92c-6a25-4bd9-b541-eb27d36709cb))
+  (fp_line (start -2.032 1.016) (end 2.032 1.016)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp a42aefd2-6850-40dc-ba9f-a315608936cb))
+  (fp_line (start 2.286 -0.762) (end 2.286 0.762)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 9eaab277-0151-49ab-bc63-e4958406ca26))
+  (fp_arc (start -2.286 -0.762) (mid -2.211605 -0.941605) (end -2.032 -1.016)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp cce53135-3989-405d-81b4-c0e342b42ad8))
+  (fp_arc (start -2.032 1.016) (mid -2.211605 0.941605) (end -2.286 0.762)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 340c3b9e-cf61-4654-8051-b1e38d53f742))
+  (fp_arc (start 2.032 -1.016) (mid 2.211605 -0.941605) (end 2.286 -0.762)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp e8992c04-68fa-4779-b307-b19b559126aa))
+  (fp_arc (start 2.286 0.762) (mid 2.211605 0.941605) (end 2.032 1.016)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 8721e51e-04af-4017-ad0e-3b41a91254bc))
+  (fp_poly
+    (pts
+      (xy -2.921 0.254)
+      (xy -2.286 0.254)
+      (xy -2.286 -0.254)
+      (xy -2.921 -0.254)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp e905c047-8b97-4675-938a-148dd29e8836))
+  (fp_poly
+    (pts
+      (xy -1.905 1.016)
+      (xy -1.651 1.016)
+      (xy -1.651 -1.016)
+      (xy -1.905 -1.016)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 8a90b3e3-1d21-4318-91ad-93dbde093acd))
+  (fp_poly
+    (pts
+      (xy 2.286 0.254)
+      (xy 2.921 0.254)
+      (xy 2.921 -0.254)
+      (xy 2.286 -0.254)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 29cf3bf2-99e9-4755-8cc7-bf81966426b5))
+  (pad "1" thru_hole roundrect (at -3.81 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.15) (tstamp f3fc6a33-e0ce-4728-bc3a-e25b60a44c38))
+  (pad "2" thru_hole circle (at 3.81 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 89ec9e20-64d5-4dc7-b1e2-465b48f04d6c))
+  (model "${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
+    (offset (xyz -3.8 0 -0.4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
